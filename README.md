@@ -10,7 +10,7 @@ This is a repository containing jar files for a CAM server. This include jars fo
 ## Installations required
 ### LocalHost
 1. Open a new terminal and download this repository: 
-- `git clone `
+- `git clone https://github.com/ua7605/jarsCamServer.git`
 2. The git repo should be downloaded to your local machine 
 - `cd jarsCamServer`
 - `cd localHost`
