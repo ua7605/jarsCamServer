@@ -1,0 +1,6 @@
+
+[CamServer]
+module_path='modules'
+config_file_path="configuration.json"
+block_name = 'ETS-message-block'
+decode_json_cam_file_path = "cam.json"
