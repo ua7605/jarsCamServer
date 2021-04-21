@@ -18,6 +18,10 @@ This is a repository containing jar files for a CAM server. This include jars fo
 3. Start the CAM server
 - `java -jar camserver-0.0.1-SNAPSHOT.jar`
 4. Done! The server is running on your local machine
+5. To download the source code of the cam server localHost version: open a new terminal window
+- `git clone https://github.com/ua7605/camserver.git`
+- `git checkout localHost`
+6. Done! You have the source code
 ### Go to the web application 
 1. Open a new browser window: and put the following in your URL:
 - `http://localhost:8080/`
