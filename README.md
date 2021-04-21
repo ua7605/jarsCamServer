@@ -15,7 +15,7 @@ This is a repository containing jar files for a CAM server. This include jars fo
 - `cd localHost`
 - `cd DUST-INSTALL`
 - $ `sudo dpkg -I dust_2.0.0_amd64.deb`
-2. The DUST Core has been installed.
+- The DUST Core has been installed.
 3. Install the python DUST plugin
 - $ `pip3 install pydust_core-2.0.0-cp36-cp36m-linux_x86_64.whl`
 - Done! It has been installed.
