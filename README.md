@@ -1,7 +1,5 @@
-# jarsCamServer
+# C-ITS CAM application
 This is a repository containing jar files for a CAM server. This include jars for running it on your local host and for running it on a public server
-# Distributed Interference Testbench
-
 ---
 
 ## Table of contents
@@ -26,7 +24,8 @@ This is a repository containing jar files for a CAM server. This include jars fo
 - `http://localhost:8080/ServiceCAM` 
 3. Done! you will see now the web appication 
 
-#### Documentation about the server
+## Manual
+### Documentation about the server
 Will come soon!
-#### How to use the web application 
+### How to use the web application 
 Will come soon!
