@@ -7,10 +7,29 @@ This is a repository containing jar files for a CAM server. This include jars fo
    1. [Manual](#manual)
 
 
-## Installations required
-### LocalHost
+## Installations required for LocalHost
+### Install DUST Ubuntu 18.04.5LTS
 1. Open a new terminal and download this repository: 
 - `git clone https://github.com/ua7605/jarsCamServer.git`
+- `cd jarsCamServer`
+- `cd localHost`
+- `cd DUST-INSTALL`
+- $ `sudo dpkg -I dust_2.0.0_amd64.deb`
+2. The DUST Core has been installed.
+3. Install the python DUST plugin
+- $ `pip3 install pydust_core-2.0.0-cp36-cp36m-linux_x86_64.whl`
+- Done! It has been installed.
+4. Install the java DUST plugin
+- $ `sudo apt-get install openjdk-8-jdk`
+- $ `sudo apt install maven`
+- $ `cd dust-java`
+- $ `mvn package`
+- $ `mvn install`
+- Done! The java DUST plugin has been installed.
+
+
+### Install CAM server for localHost
+1. Open a new terminal and go to the jarsCamServer repository: 
 2. The git repo should be downloaded to your local machine 
 - `cd jarsCamServer`
 - `cd localHost`
