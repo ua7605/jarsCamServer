@@ -29,8 +29,7 @@ This is a repository containing jar files for a CAM server. This include jars fo
 
 
 ### Install CAM server for localHost
-1. Open a new terminal and go to the jarsCamServer repository: 
-2. The git repo should be downloaded to your local machine 
+1. Open a new terminal and go to the jarsCamServer repository:  
 - `cd jarsCamServer`
 - `cd localHost`
 - `cd server`
