@@ -14,6 +14,7 @@ This is a repository containing jar files for a CAM server. This include jars fo
 2. The git repo should be downloaded to your local machine 
 - `cd jarsCamServer`
 - `cd localHost`
+- `cd server`
 3. Start the CAM server
 - `java -jar camserver-0.0.1-SNAPSHOT.jar`
 4. Done! The server is running on your local machine
@@ -23,9 +24,11 @@ This is a repository containing jar files for a CAM server. This include jars fo
 2. To go to the web application service go to the following tab
 - `http://localhost:8080/ServiceCAM` 
 3. Done! you will see now the web appication 
-
-## Manual
-### Documentation about the server
-Will come soon!
-### How to use the web application 
-Will come soon!
+### Run demo CAM message generator 
+1. Open a new terminal form the root repo
+- `cd jarsCamServer`
+- `cd localHost`
+- `cd MessageGeneratorDemo`
+2. Start the demo special vehicle CAM message generator
+- `java -jar CAM_message_SPV_Gen_Demo.jar` 
+3. Done! The demo messages will be sent 
